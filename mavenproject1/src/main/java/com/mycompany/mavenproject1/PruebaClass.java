@@ -75,7 +75,7 @@ public class PruebaClass {
     /**
      * Constructor por defecto
      */
-    public Empleado(){
+    public PruebaClass (){
         this ("", "", 0, 0);
     }
  
@@ -86,7 +86,7 @@ public class PruebaClass {
      * @param edad edad del empleado
      * @param salario salario del empleado
      */
-    public Empleado(String nombre, String apellido, int edad, double salario){
+    public PruebaClass (String nombre, String apellido, int edad, double salario){
         this.nombre=nombre;
         this.apellido=apellido;
         this.edad=edad;
