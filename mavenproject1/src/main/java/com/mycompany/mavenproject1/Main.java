@@ -8,16 +8,25 @@ package com.mycompany.mavenproject1;
 /**
  *
  * @author sergi
+ * version v1.0
  */
 public class Main {
 
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
+        
+  /**
+  * @param saldoactual saldo actual de la cuenta. --------------
+  */
 
         operativa_cuenta();
     }
 
+     /* Método que muestra el contenido del saldo actual además que permite incrementar 
+            y reducir el saldo en la cuenta, a nombre de una persona, posteriormente mostrarlo e indicar si se ha conseguido 
+            añadir o retirar     
+    */    
     public static void operativa_cuenta() {
         CCuenta cuenta1;
         double saldoActual;
@@ -34,6 +43,7 @@ public class Main {
             cuenta1.ingresar(695);
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
+
         }
     }
 }
